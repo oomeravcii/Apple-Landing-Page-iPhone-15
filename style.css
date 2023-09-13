@@ -1,0 +1,525 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    color: #1D1D1F;
+}
+
+/* Section Links */
+
+.link-group {
+    display: flex;
+    justify-content: center;
+}
+
+.link {
+    color: #0066CC;
+    font-size: 20px;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+
+.link:last-child {
+    margin-right: 0px;
+}
+
+.link a {
+    color: #0066CC;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.link a:hover {
+    text-decoration: underline;
+}
+
+/* Main-Title */
+
+.main-title {
+    font-size: 55px;
+    font-weight: 600;
+    padding-top: 60px;
+}
+
+/* Second-Line-Main-Title */
+
+.second-line-main-title {
+    font-size: 55px;
+    font-weight: 600;
+    margin-top: -5px;
+}
+
+/* Sub-Title */
+
+.sub-title {
+    font-size: 27px;
+    font-weight: 400;
+}
+
+div {
+    text-align: center;
+}
+
+/* Pre-Order-Titles */
+
+.pre-order-big {
+    color: #86868B;
+    font-size: 21px;
+    margin-top: 12px;
+}
+
+.pre-order-big-line-2 {
+    color: #86868B;
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+
+.pre-order-small {
+    color: #86868B;
+    font-size: 17px;
+    margin-top: 12px;
+}
+
+/* NavBar */
+
+#navbar-space {
+    height: 40px;
+}
+
+#navbar {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 42px;
+    font-size: 12px;
+    opacity: 0.9;
+    background-color: #F9F9FB;
+}
+
+#navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 3px;
+}
+
+#navbar ul a {
+    padding: 1.1rem;
+    text-decoration: none;
+    color: #313131;
+}
+
+#navbar ul a:hover {
+    opacity: 0.5;
+}
+
+.apple {
+    margin-right: -15px;
+}
+
+.search {
+    margin-left: -10px;
+}
+
+.bag {
+    margin-top: -3px;
+    margin-left: -30px;
+}
+
+/* SECTION: iPhone 15 Pro */
+
+#iphone-15-pro {
+    height: 700px;
+    color: white;
+}
+
+.bg-image-iphone-15-pro {
+    background-color: #000000;
+    background-image: url(icons/iphone-15-pro.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 3000px;
+    background-position-y: -30px;
+}
+
+#iphone-15-pro .link-group .link {
+    color: #2997FF;
+}
+
+#iphone-15-pro .link-group .link a {
+    color: #2997FF;
+}
+
+
+
+/* SECTION: Small Space */
+
+.space {
+    width: 100%;
+    height: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+/* SECTION: İphone 15 */
+
+#iphone-15 {
+    height: 700px;
+}
+
+.bg-image-iphone-15 {
+    background-color: #F5F5F7;
+    background-image: url(icons/iphone-15.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 3000px;
+    background-position-y: -35px;
+}
+
+/* SECTION: Apple Watch Series 9 */
+
+#apple-watch-s9 {
+    height: 700px;
+    color: white;
+}
+
+.bg-image-apple-watch-s9 {
+    background-color: #000000;
+    background-image: url(icons/apple-watch-s9.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 3000px;
+    background-position-y: -35px;
+}
+
+#apple-watch-s9 .pre-order-big {
+    margin-bottom: 10px;
+}
+
+#apple-watch-s9 .link-group .link {
+    color: #2997FF;
+}
+
+#apple-watch-s9 .link-group .link a {
+    color: #2997FF;
+}
+
+/* --- Titles For Smaller Sections --- */
+
+.small-main-title {
+    font-size: 40px;
+    font-weight: 600;
+    padding-top: 60px;
+    color: rgb(0, 0, 0);
+}
+
+.small-sub-title {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}
+
+/* SECTION: Container-For-2-Section */
+
+.container-for-2-section {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+
+/* SECTTION: Apple-Watch-Ultra-2 */
+
+#apple-watch-ultra-2 {
+    background-color: #FBFBFD;
+    background-image: url(icons/apple-watch-ultra-2.jpg);
+    background-repeat: no-repeat;
+    background-size: 1300px;
+    background-position: center;
+    width: 935px;
+    height: 580px;
+    margin-right: 12px;
+}
+
+#apple-watch-ultra-2t .small-main-title {
+    margin-top: 350px;
+}
+
+#apple-watch-ultra-2 .small-sub-title {
+    margin-top: 5px;
+}
+
+#apple-watch-ultra-2 .link-group a {
+    color: #2997FF;
+    font-size: 17px;
+}
+
+#apple-watch-ultra-2 .link-group .link {
+    color: #2997FF;
+    font-size: 17px;
+}
+
+#apple-watch-s9 .pre-order-small {
+    margin-bottom: 10px;
+}
+
+/* SECTION: Carbon Neutral */
+
+#carbon-neutral {
+    background-color: #FBFBFD;
+    width: 935px;
+    height: 580px;
+    background-image: url(icons/carbon-neutral.jpg);
+    background-position: center;
+    background-size: 1300px;
+    background-repeat: no-repeat;
+    background-position-y: -4px;
+}
+
+#carbon-neutral .link-group a {
+    color: #2997FF;
+    font-size: 17px;
+}
+
+#carbon-neutral .link-group .link {
+    color: #2997FF;
+    font-size: 17px;
+}
+
+/* SECTION: Apple Watch SE */
+
+#apple-watch-se {
+    background-color: #FBFBFD;
+    background-image: url(icons/apple-watch-se.jpg);
+    background-repeat: no-repeat;
+    background-size: 1300px;
+    background-position: center;
+    background-position-y: -20px;
+    width: 935px;
+    height: 580px;
+    margin-right: 12px;
+}
+
+#apple-watch-se .small-sub-title {
+    margin-top: -5px;
+}
+
+#apple-watch-se .link-group a {
+    color: #2997FF;
+    font-size: 17px;
+}
+
+#apple-watch-se .link-group .link {
+    color: #2997FF;
+    font-size: 17px;
+}
+
+/* SECTION: Save For College */
+
+#save-for-college {
+    position: relative;
+    width: 935px;
+    height: 580px;
+}
+
+#save-for-college video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#save-for-college .small-main-title,
+#save-for-college .small-main-title.second-line,
+#save-for-college .small-sub-title,
+#save-for-college .link-group {
+    position: relative;
+    z-index: 1;
+}
+
+#save-for-college .second-line {
+    margin-top: -65px;
+}
+
+#save-for-college img {
+    width: 140px;
+}
+
+#save-for-college .link-group a {
+    color: #2997FF;
+    font-size: 17px;
+}
+
+#save-for-college .link-group .link {
+    color: #2997FF;
+    font-size: 17px;
+}
+
+/* SECTTION: Apple Card */
+
+#apple-card {
+    background-color: #FBFBFD;
+    background-image: url(icons/apple-card.jpg);
+    background-repeat: no-repeat;
+    background-size: 1300px;
+    background-position: center;
+    width: 935px;
+    height: 580px;
+    margin-right: 12px;
+}
+
+#apple-card .small-main-title {
+    margin-top: -10px;
+}
+
+#apple-card .small-sub-title {
+    margin-top: 5px;
+}
+
+#apple-card .link-group a {
+    color: #2997FF;
+    font-size: 17px;
+}
+
+#apple-card .link-group .link {
+    color: #2997FF;
+    font-size: 17px;
+}
+
+#apple-card .pre-order-small {
+    margin-bottom: 10px;
+}
+
+/* SECTION: Trade In */
+
+#trade-in {
+    background-color: #FBFBFD;
+    width: 935px;
+    height: 580px;
+    background-image: url(icons/iphone-tradein.jpg);
+    background-position: center;
+    background-size: 1300px;
+    background-repeat: no-repeat;
+    background-position-y: -4px;
+}
+
+#trade-in .link-group a {
+    color: #2997FF;
+    font-size: 17px;
+}
+
+#trade-in .link-group .link {
+    color: #2997FF;
+    font-size: 17px;
+}
+
+/* SECTION: Creator */
+
+#creator {
+    height: 700px;
+    color: white;
+    margin: 0 auto;
+    width: 99%;
+}
+
+.bg-image-creator {
+    background-image: url(icons/creator-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1950px;
+    background-position-y: -60px;
+}
+
+#creator .main-title {
+    padding-top: 250px;
+}
+
+
+#creator .link-group a {
+    color: #2997FF;
+    font-size: 20px;
+}
+
+#creator .link-group .link {
+    color: #2997FF;
+    font-size: 20px;
+}
+
+/* SECTION: Footer */
+
+#footer {
+    width: 100%;
+    height: 390px;
+}
+
+#footer a {
+    color: #474747;
+}
+
+.bg-footer {
+    background-color: #F5F5F7;
+    color: #7C7C81;
+    display: flex;
+    justify-content: center;
+}
+
+#footer .text-box {
+    margin-top: 20px;
+}
+
+#footer p {
+    font-size: 13px;
+    width: 1000px;
+    text-align: left;
+}
+
+#footer hr {
+    background-color:   #bebebe;
+    height: 1px;
+    border: none;
+}
+
+/* SECTION: Footer-Categories */
+
+#footer-categories {
+    width: 100%;
+    height: 480px;
+}
+
+.bg-footer-categories {
+    background-color: #F5F5F7;
+}
+
+#footer-categories .line-1, .line-2, .line-3, .line-4, .line-5 {
+    font-size: 13px;
+    width: 500px;
+    margin-right: 50px;
+    text-align: left;
+}
+
+#footer-container {
+    display: flex;
+    margin: 0 auto;
+    width: 1000px;
+    line-height: 25px;
+}
+
+#footer-container .links a {
+    color: #7C7C81;
+}
+
+#footer-container a {
+    text-decoration: none;
+}
+
+#footer-container a:hover {
+    text-decoration: underline;
+}
