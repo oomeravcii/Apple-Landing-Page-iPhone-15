@@ -70,6 +70,11 @@ html {
     width: 100%;
 }
 
+.bg-image-iphone-15-pro {
+    background-size: 2000px;
+    background-position-y: 60px;
+}
+
 #carbon-neutral {
     margin-top: 20px;
     width: 100%;
