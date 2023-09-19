@@ -101,6 +101,7 @@ div {
     font-size: 12px;
     opacity: 0.9;
     background-color: #F9F9FB;
+    z-index: 100;
 }
 
 #navbar ul {
